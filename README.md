@@ -4,7 +4,7 @@ Custom UI for iOS application which allows you to show graph with triangles.
 ## Requirements
 * Xcode 6 or higher
 * Apple LLVM compiler
-* iOS 6.0 or higher
+* iOS 8.0 or higher (May work on previous versions, just did not testit. Feel free to edit it).
 * ARC
 
 ## Demo
