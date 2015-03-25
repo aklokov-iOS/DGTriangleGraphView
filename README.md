@@ -23,7 +23,7 @@ All you need to do is drop DGTriangleGraphView files into your project, and add 
 
 ## Example usage
 
-```bash
+``` objective-c
 // Create triangleGraphView
 DGTriangleGraphView *triangleGraphView = [[DGTriangleGraphView alloc] init];
 triangleGraphView.overlapPercentage = 0.25f;
