@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>06DF95AA-A09C-4CAC-AA32-069F4C5FB581</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DGTriangleGraphViewExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>51039D1E7823E2649337D21586ABF6FC85D4B8B9</key>
+		<string>https://github.com/gontovnik/DGTriangleGraphView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DGTriangleGraphViewExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>51039D1E7823E2649337D21586ABF6FC85D4B8B9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gontovnik/DGTriangleGraphView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>51039D1E7823E2649337D21586ABF6FC85D4B8B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>51039D1E7823E2649337D21586ABF6FC85D4B8B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DGTriangleGraphView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

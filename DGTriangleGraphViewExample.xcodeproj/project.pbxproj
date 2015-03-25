@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AEDA121AC31A0D00E4B521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AEDA111AC31A0D00E4B521 /* main.m */; };
+		05AEDA151AC31A0D00E4B521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AEDA141AC31A0D00E4B521 /* AppDelegate.m */; };
+		05AEDA181AC31A0D00E4B521 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AEDA171AC31A0D00E4B521 /* ViewController.m */; };
+		05AEDA1D1AC31A0D00E4B521 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AEDA1C1AC31A0D00E4B521 /* Images.xcassets */; };
+		05AEDA2C1AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AEDA2B1AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.m */; };
+		05AEDA3A1AC31A2600E4B521 /* DGTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AEDA371AC31A2600E4B521 /* DGTriangle.m */; };
+		05AEDA3B1AC31A2700E4B521 /* DGTriangleGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AEDA391AC31A2600E4B521 /* DGTriangleGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05AEDA261AC31A0D00E4B521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AEDA041AC31A0D00E4B521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AEDA0B1AC31A0D00E4B521;
+			remoteInfo = DGTriangleGraphViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AEDA0C1AC31A0D00E4B521 /* DGTriangleGraphViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGTriangleGraphViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AEDA101AC31A0D00E4B521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AEDA111AC31A0D00E4B521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05AEDA131AC31A0D00E4B521 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05AEDA141AC31A0D00E4B521 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05AEDA161AC31A0D00E4B521 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05AEDA171AC31A0D00E4B521 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05AEDA1C1AC31A0D00E4B521 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05AEDA251AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGTriangleGraphViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AEDA2A1AC31A0D00E4B521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AEDA2B1AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGTriangleGraphViewExampleTests.m; sourceTree = "<group>"; };
+		05AEDA361AC31A2600E4B521 /* DGTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTriangle.h; sourceTree = "<group>"; };
+		05AEDA371AC31A2600E4B521 /* DGTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTriangle.m; sourceTree = "<group>"; };
+		05AEDA381AC31A2600E4B521 /* DGTriangleGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTriangleGraphView.h; sourceTree = "<group>"; };
+		05AEDA391AC31A2600E4B521 /* DGTriangleGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTriangleGraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05AEDA091AC31A0D00E4B521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AEDA221AC31A0D00E4B521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AEDA031AC31A0D00E4B521 = {
+			isa = PBXGroup;
+			children = (
+				05AEDA0E1AC31A0D00E4B521 /* DGTriangleGraphViewExample */,
+				05AEDA281AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests */,
+				05AEDA0D1AC31A0D00E4B521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05AEDA0D1AC31A0D00E4B521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AEDA0C1AC31A0D00E4B521 /* DGTriangleGraphViewExample.app */,
+				05AEDA251AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05AEDA0E1AC31A0D00E4B521 /* DGTriangleGraphViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				05AEDA351AC31A2600E4B521 /* DGTriangleGraphView */,
+				05AEDA131AC31A0D00E4B521 /* AppDelegate.h */,
+				05AEDA141AC31A0D00E4B521 /* AppDelegate.m */,
+				05AEDA161AC31A0D00E4B521 /* ViewController.h */,
+				05AEDA171AC31A0D00E4B521 /* ViewController.m */,
+				05AEDA1C1AC31A0D00E4B521 /* Images.xcassets */,
+				05AEDA0F1AC31A0D00E4B521 /* Supporting Files */,
+			);
+			path = DGTriangleGraphViewExample;
+			sourceTree = "<group>";
+		};
+		05AEDA0F1AC31A0D00E4B521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AEDA101AC31A0D00E4B521 /* Info.plist */,
+				05AEDA111AC31A0D00E4B521 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05AEDA281AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				05AEDA2B1AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.m */,
+				05AEDA291AC31A0D00E4B521 /* Supporting Files */,
+			);
+			path = DGTriangleGraphViewExampleTests;
+			sourceTree = "<group>";
+		};
+		05AEDA291AC31A0D00E4B521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AEDA2A1AC31A0D00E4B521 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05AEDA351AC31A2600E4B521 /* DGTriangleGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				05AEDA361AC31A2600E4B521 /* DGTriangle.h */,
+				05AEDA371AC31A2600E4B521 /* DGTriangle.m */,
+				05AEDA381AC31A2600E4B521 /* DGTriangleGraphView.h */,
+				05AEDA391AC31A2600E4B521 /* DGTriangleGraphView.m */,
+			);
+			path = DGTriangleGraphView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05AEDA0B1AC31A0D00E4B521 /* DGTriangleGraphViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AEDA2F1AC31A0D00E4B521 /* Build configuration list for PBXNativeTarget "DGTriangleGraphViewExample" */;
+			buildPhases = (
+				05AEDA081AC31A0D00E4B521 /* Sources */,
+				05AEDA091AC31A0D00E4B521 /* Frameworks */,
+				05AEDA0A1AC31A0D00E4B521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGTriangleGraphViewExample;
+			productName = DGTriangleGraphViewExample;
+			productReference = 05AEDA0C1AC31A0D00E4B521 /* DGTriangleGraphViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05AEDA241AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AEDA321AC31A0D00E4B521 /* Build configuration list for PBXNativeTarget "DGTriangleGraphViewExampleTests" */;
+			buildPhases = (
+				05AEDA211AC31A0D00E4B521 /* Sources */,
+				05AEDA221AC31A0D00E4B521 /* Frameworks */,
+				05AEDA231AC31A0D00E4B521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05AEDA271AC31A0D00E4B521 /* PBXTargetDependency */,
+			);
+			name = DGTriangleGraphViewExampleTests;
+			productName = DGTriangleGraphViewExampleTests;
+			productReference = 05AEDA251AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05AEDA041AC31A0D00E4B521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Danil Gontovnik";
+				TargetAttributes = {
+					05AEDA0B1AC31A0D00E4B521 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					05AEDA241AC31A0D00E4B521 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 05AEDA0B1AC31A0D00E4B521;
+					};
+				};
+			};
+			buildConfigurationList = 05AEDA071AC31A0D00E4B521 /* Build configuration list for PBXProject "DGTriangleGraphViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05AEDA031AC31A0D00E4B521;
+			productRefGroup = 05AEDA0D1AC31A0D00E4B521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05AEDA0B1AC31A0D00E4B521 /* DGTriangleGraphViewExample */,
+				05AEDA241AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05AEDA0A1AC31A0D00E4B521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AEDA1D1AC31A0D00E4B521 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AEDA231AC31A0D00E4B521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05AEDA081AC31A0D00E4B521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AEDA3A1AC31A2600E4B521 /* DGTriangle.m in Sources */,
+				05AEDA181AC31A0D00E4B521 /* ViewController.m in Sources */,
+				05AEDA151AC31A0D00E4B521 /* AppDelegate.m in Sources */,
+				05AEDA121AC31A0D00E4B521 /* main.m in Sources */,
+				05AEDA3B1AC31A2700E4B521 /* DGTriangleGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AEDA211AC31A0D00E4B521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AEDA2C1AC31A0D00E4B521 /* DGTriangleGraphViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05AEDA271AC31A0D00E4B521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AEDA0B1AC31A0D00E4B521 /* DGTriangleGraphViewExample */;
+			targetProxy = 05AEDA261AC31A0D00E4B521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05AEDA2D1AC31A0D00E4B521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05AEDA2E1AC31A0D00E4B521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05AEDA301AC31A0D00E4B521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DGTriangleGraphViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05AEDA311AC31A0D00E4B521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DGTriangleGraphViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05AEDA331AC31A0D00E4B521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DGTriangleGraphViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DGTriangleGraphViewExample.app/DGTriangleGraphViewExample";
+			};
+			name = Debug;
+		};
+		05AEDA341AC31A0D00E4B521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DGTriangleGraphViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DGTriangleGraphViewExample.app/DGTriangleGraphViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05AEDA071AC31A0D00E4B521 /* Build configuration list for PBXProject "DGTriangleGraphViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AEDA2D1AC31A0D00E4B521 /* Debug */,
+				05AEDA2E1AC31A0D00E4B521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AEDA2F1AC31A0D00E4B521 /* Build configuration list for PBXNativeTarget "DGTriangleGraphViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AEDA301AC31A0D00E4B521 /* Debug */,
+				05AEDA311AC31A0D00E4B521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AEDA321AC31A0D00E4B521 /* Build configuration list for PBXNativeTarget "DGTriangleGraphViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AEDA331AC31A0D00E4B521 /* Debug */,
+				05AEDA341AC31A0D00E4B521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05AEDA041AC31A0D00E4B521 /* Project object */;
+}
