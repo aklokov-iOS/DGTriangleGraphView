@@ -1,6 +1,9 @@
 ## DGTriangleGraphView
 Custom UI for iOS application which allows you to show graph with triangles.
 
+![alt tag](https://raw.githubusercontent.com/gontovnik/DGTriangleGraphView/master/DGTriangleGraphViewSortNone.gif)
+![alt tag](https://raw.githubusercontent.com/gontovnik/DGTriangleGraphView/master/DGTriangleGraphViewSortHighToLow.gif)
+
 ## Requirements
 * Xcode 6 or higher
 * Apple LLVM compiler
