@@ -64,8 +64,9 @@ triangleGraphView.titles = titles;
 Danil Gontovnik
 
 - https://github.com/gontovnik
+- https://twitter.com/gontovnik
+- http://gontovnik.com/
 - gontovnik.danil@gmail.com
-
 
 ## License
 
